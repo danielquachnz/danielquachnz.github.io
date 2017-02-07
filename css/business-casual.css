@@ -48,7 +48,6 @@ hr {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
-    color: #ff9156;
 }
 
 .navbar-nav {
@@ -56,6 +55,9 @@ hr {
     font-weight: 400;
     letter-spacing: 3px;
     color: #ff9156;
+}
+.navbar-header {
+  background: rgba(232,241,239,0.9);
 }
 
 .img-full {
@@ -86,8 +88,12 @@ hr {
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: rgba(114,166,158,0.7);
+    border-radius:5px;
     background: #fff;
-    background: rgba(154,236,234,0.9);
+    background: rgba(232,241,239,0.9);
 }
 
 .intro-text {
@@ -160,6 +166,7 @@ footer p {
 
     .navbar-header {
         display: none;
+        background: rgba(232,241,239,0.9);
     }
 
     .navbar {
@@ -167,9 +174,12 @@ footer p {
     }
 
     .navbar-default {
-        border: none;
+      border-width: 8px;
+      border-left: 0px;
+      border-right: 0px;
+      border-color: rgba(114,166,158,0.9);
         background: #fff;
-        background: rgba(154,236,234,0.9);
+        background: rgba(232,241,239,0.9);
     }
 
     .nav>li>a {
