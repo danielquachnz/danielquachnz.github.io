@@ -57,7 +57,23 @@
 			});
 
 			//Scroll attempt
-		$("a[href='#']").click(function() {
+        $("a[href='#thewedding']").click(function() {
+		  $("html, body").animate({ scrollTop: $("#thewedding").offset().top }, "slow");
+		  return false;
+		});
+        $("a[href='#food']").click(function() {
+		  $("html, body").animate({ scrollTop: $("#food").offset().top }, "slow");
+		  return false;
+		});
+        $("a[href='#ourStory']").click(function() {
+		  $("html, body").animate({ scrollTop: $("#ourStory").offset().top }, "slow");
+		  return false;
+		});
+        $("a[href='#registry']").click(function() {
+		  $("html, body").animate({ scrollTop: $("#registry").offset().top }, "slow");
+		  return false;
+		});
+        $("a[href='#']").click(function() {
 		  $("html, body").animate({ scrollTop: 0 }, "slow");
 		  return false;
 		});
