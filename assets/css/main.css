@@ -1410,7 +1410,7 @@
 			}
 
 			#header.alt h1 {
-				font-size: 4em;
+				font-size: 5em;
 				padding: 0 0.5em 0.25em 0.5em;
 				border-bottom: solid 2px #ffffff;
 				font-weight: 200;
@@ -1423,7 +1423,7 @@
 				text-transform: uppercase;
 				letter-spacing: 0.325rem;
 				font-weight: 400;
-				font-size: 0.8em;
+				font-size: 1.5em;
 				padding: 0 1.25em;
 			}
 
@@ -1571,7 +1571,7 @@
 		}
 
 		#footer .copyright {
-			font-size: 0.8em;
+			font-size: 0.6 em;
 		}
 
 		@media screen and (max-width: 736px) {
