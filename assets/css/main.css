@@ -92,7 +92,7 @@
 /* Type */
 
 	body {
-		background-color:  #fff0d8;
+		background-color:  #ccffff;
 		color:#2c2d2d;
 	}
 
@@ -133,13 +133,9 @@
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		text-decoration: none;
-<<<<<<< HEAD
 		border-bottom: dotted 1px;
         outline: 0;
         border: 0;
-=======
-        outline: none;
->>>>>>> e91b8416d6568f1cf00d11c617ca885e9da3f71d
 	}
 
 		a:hover {
