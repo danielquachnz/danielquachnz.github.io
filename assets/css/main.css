@@ -134,6 +134,8 @@
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		text-decoration: none;
 		border-bottom: dotted 1px;
+        outline: 0;
+        border: 0;
 	}
 
 		a:hover {
@@ -1588,3 +1590,7 @@
 				}
 
 		}
+
+    .no-underline:hover {
+        text-decoration: none;
+    }
